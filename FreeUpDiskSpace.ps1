@@ -40,7 +40,7 @@ function Uninstall-AllUsersNonDefaultMicrosoftStoreApps {
     $NonDefaultMicrosoftStoreApps | Select-Object Name, PackageFullName, Publisher, PackageUserInformation;
 
     # Uninstalls all currently installed non-default Microsoft Store apps for all users.
-    # $NonDefaultMicrosoftStoreApps | Remove-AppxPackage -AllUsers;
+    $NonDefaultMicrosoftStoreApps | Remove-AppxPackage -AllUsers;
 }
 
 # Write to the console to provide script status.
