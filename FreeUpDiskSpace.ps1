@@ -1,3 +1,5 @@
+# FreeUpDiskSpace by Nicholas Bell with suggestions from OpenAI ChatGPT
+
 <# 
 This is a script that I wrote to automate the process of freeing up disk space on student lab machines.
 When the disk is full on these machines, it makes it so new users are unable to log in and users that are able to log in can't save any files locally.
